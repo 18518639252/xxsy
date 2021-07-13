@@ -1,0 +1,435 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    width: 1920px;
+    height: 150px;
+    background: #ffffff;
+}
+
+.logo {
+    float: left;
+    margin-left: 290px;
+    margin-top: 28px;
+    width: 736px;
+    height: 95px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.logo_right {
+    float: right;
+    margin-right: 306px;
+    margin-top: 38px;
+    width: 243px;
+    height: 89px;
+}
+
+.lianjie {
+    font-size: 20px;
+    text-align: right;
+}
+
+.sou {
+    margin-top: 15px;
+    width: 243px;
+    height: 40px;
+    border: 2px solid #0066a6;
+}
+
+.sou div:nth-child(1) {
+    float: left;
+    width: 197px;
+    height: 100%;
+    background: yellow;
+}
+
+.sou div:nth-child(1) input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+
+.sou div:nth-child(2) {
+    float: left;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+    height: 100%;
+}
+
+.nav {
+    width: 1920px;
+    height: 40px;
+    background: #0066a6;
+    line-height: 40px;
+    font-size: 15px;
+}
+
+.nav li:hover {
+    background: #014f7f;
+}
+
+.nav .yiji {
+    position: relative;
+    margin: 0 auto;
+    width: 1400px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.zxjj ul {
+    display: none;
+    position: absolute;
+    width: 175px;
+    top: 40px;
+    z-index: 9;
+    background: #014f7f;
+}
+
+.zxjj ul li:hover {
+    background: #0066a6;
+}
+
+.zxjj:hover ul {
+    display: block;
+}
+
+.yiji>li {
+    position: relative;
+    float: left;
+    width: 175px;
+    list-style: none;
+    text-align: center;
+}
+
+.banner {
+    position: relative;
+    width: 1919px;
+    height: 550px;
+    background: pink;
+}
+
+.banner img:nth-child(1) {
+    width: 100%;
+    height: 100%;
+}
+
+.banner img:nth-child(2) {
+    position: absolute;
+    top: 250px;
+    left: 45px;
+}
+
+.banner img:nth-child(3) {
+    position: absolute;
+    top: 250px;
+    right: 45px;
+}
+
+.titlename {
+    width: 1920px;
+    height: 100px;
+    text-align: center;
+    color: #333333;
+}
+
+.titlename img {
+    vertical-align: middle;
+}
+
+.kyjx {
+    margin-top: 36px;
+    width: 1920px;
+    height: 585px;
+}
+
+.content {
+    margin: 0 auto;
+    width: 1360px;
+    height: 380px;
+}
+
+.content li {
+    float: left;
+    margin-left: 35px;
+    width: 413px;
+    height: 380px;
+    background: #f6fcff;
+    list-style: none;
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.content .title {
+    margin: 25px auto;
+    width: 380px;
+    height: 30px;
+    line-height: 30px;
+    border-left: 6px solid #0066a6;
+    text-indent: 10px;
+    font-size: 20px;
+}
+
+.content .title span {
+    float: right;
+    font-size: 15px;
+}
+
+.content .pic {
+    height: 160px;
+}
+
+.content .pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.content .xiangxi {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 388px;
+    height: 80px;
+    font-size: 15px;
+}
+
+.xwdt {
+    width: 1920px;
+    height: 620px;
+    background: url("images/图层10.png");
+    padding-top: 30px;
+}
+
+.xwdt .main {
+    width: 1303px;
+    height: 456px;
+    margin: 0 auto;
+}
+
+.xwdt .left {
+    float: left;
+    width: 624px;
+}
+
+.xwdt .right {
+    float: right;
+    width: 624px;
+    height: 456px;
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.xwdt .top {
+    height: 222px;
+}
+
+.xwdt .top .top_left {
+    float: left;
+    width: 290px;
+}
+
+.xwdt .top .top_right {
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 281px;
+    height: 200px;
+    border-bottom: 1px solid gray;
+}
+
+.xwdt .top .top_right p {
+    margin-top: 20px;
+}
+
+.xwdt .top .top_right div {
+    margin-top: 10px;
+}
+
+.xwdt .bottom {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 570px;
+    height: 180px;
+    font-size: 15px;
+}
+
+.xwdt .bottom li {
+    margin-bottom: 10px;
+}
+
+.xwdt .bottom span {
+    float: right;
+    color: #bdbdbd;
+}
+
+.fwdf .neirong {
+    margin-left: 310px;
+    width: 1310px;
+    height: 470px;
+}
+
+.fwdf .left {
+    float: left;
+    width: 608px;
+    height: 470px;
+}
+
+.fwdf .left li {
+    width: 597px;
+    height: 100px;
+    margin-bottom: 25px;
+    border-bottom: 1px dashed gray;
+    list-style: none;
+}
+
+.fwdf .left li div:nth-child(1) {
+    float: left;
+    width: 120px;
+    height: 100px;
+    background: #04629c;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.fwdf .left li div:nth-child(2) {
+    margin-top: 50px;
+    transform: translateY(-50%);
+    float: right;
+    width: 450px;
+    height: 60px;
+    font-size: 17px;
+}
+
+.fwdf .left p:nth-child(1) {
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+
+.fwdf .left p:nth-child(2) {
+    font-size: 15px;
+}
+
+.fwdf .right {
+    float: right;
+    width: 623px;
+    height: 470px;
+}
+
+.xxrc {
+    margin-left: 310px;
+    margin-top: 65px;
+    width: 1300px;
+    height: 125px;
+}
+
+.xxrc img {
+    vertical-align: middle;
+}
+
+.xxrc li {
+    list-style: none;
+}
+
+.xxrc li:nth-child(1) {
+    float: left;
+}
+
+.xxrc li:nth-child(2) {
+    float: right;
+}
+
+.xxrc .title {
+    width: 623px;
+    height: 125px;
+    text-align: center;
+    color: #333333;
+}
+
+.all {
+    width: 1300px;
+    height: 435px;
+    margin: 0 auto;
+}
+
+.xia {
+    width: 1920px;
+    height: 435px;
+    background: url("images/图层\ 19.png");
+}
+
+.all img {
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+}
+
+.all .zuo {
+    float: left;
+    width: 620px;
+    height: 430px;
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.all .you {
+    float: right;
+    width: 620px;
+    height: 430px;
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.all ul {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 580px;
+    height: 320px;
+    font-size: 15px;
+}
+
+.all ul li {
+    list-style: none;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.all span {
+    float: right;
+}
+
+.all .more {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 165px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 10px;
+    background: #04629c;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer {
+    margin-top: 50px;
+    width: 1920px;
+    height: 115px;
+    background: #0066a6;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 30px;
+}
